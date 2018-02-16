@@ -1,0 +1,270 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*            End of CSS Reset            */
+
+/*                 Setup                  */
+
+/*               Borderbox                */
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* clearfix */
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    clear: both;
+    *zoom: 1;
+}
+
+/*               End of Setup             */
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+
+li a:hover {
+    background-color: black;
+}
+
+.tel {
+    width: auto;
+    height: auto;
+    margin-left: 25%;
+    margin-top: 20px;
+}
+
+.titre {
+
+    display: block;
+    margin-top: 20%;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+    font-family: Myriad Set Pro;
+
+}
+
+.photo {
+    width: 24.9%
+}
+
+.photo img {
+    height: 210px;
+    width: 100%;
+    margin: 15px 1px;
+    object-fit: cover;
+
+}
+
+#pt {
+    color: #61A0CA;
+    font-family: Myriad Set Pro;
+    font-size: 15px;
+    font-weight: bold;
+    display: block;
+}
+
+
+.grigio {
+    display: flex;
+    background-color: #F2F2F2;
+    width: 800px;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.b {
+    color: black;
+    font-weight: bold
+}
+
+.foot p {
+    color: #8C8C8C;
+    font-weight: bold
+}
+
+.foot {
+    width: 12%;
+    display: inline-block;
+    font-family: Myriad Set Pro;
+    font-size: 12px;
+    margin: 10px 5px;
+    line-height: 150%;
+    font-weight: 400;
+}
+
+p {
+    font-size: 12px;
+}
